@@ -1,0 +1,282 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:15px;
+  line-height:1.5;
+  padding:0;
+  margin:0;
+  background-color:#ccffff;
+}
+
+/* Global */
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+
+ul{
+  margin:0;
+  padding:0;
+}
+
+/* header **/
+header{
+  background:#ffffff url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2012/10/tumblr_mc1tg5NaI71rf089no1_1280.gif) no-repeat center center;
+  background-size: 1100px 650px;
+  background-position: left;
+  color:#ffffff;
+  padding-top:15px;
+  padding-bottom:15px;
+  min-height:60px;
+}
+
+header a{
+  color:#000000;
+  text-decoration:none;
+  font-size: 20px;
+}
+
+
+header li{
+  float:left;
+  display:inline;
+  padding: 0 30px 0 10px;
+}
+
+header #title{
+  float:left;
+}
+
+header #title h1{
+  margin:10px;
+}
+
+header #title img{
+  size:10px;
+}
+
+header nav{
+  float:right;
+  margin-top:15px;
+}
+
+header a:hover{
+  color:#000000;
+  text-decoration: line-through;
+  transition: .5s ease;
+}
+
+
+
+/*showcase*/
+
+#description{
+  min-height: 100 px;
+  background:url('../img/logo.png') no-repeat 5% 90%,
+  url('../img/logo.png') no-repeat 4% 0%,
+  url('../img/logo.png') no-repeat 0% 20%,
+  url('../img/logo.png') no-repeat 70% 0%,
+  url('../img/logo.png') no-repeat 90% 40%,
+  url('../img/logo.png') no-repeat 60% 90%;
+  background-size: 200px;
+}
+
+#description h1{
+  margin-top:100px;
+  margin-bottom: 10px;
+  font-size: 55px;
+
+}
+
+#description p{
+  font-size: 20px;
+}
+
+/*sticky**/
+
+.gameplay {
+    position:sticky;
+    top: 0;
+    color: white;
+    background-color: black;
+    padding: 50px;
+    font-size: 30px;
+    text-align: center;
+}
+
+/* links***/
+
+#art{
+  background: #ffffff;
+  padding: 50px;
+  color: #000000;
+}
+
+#art .cover1{
+  padding-left: 1200px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+#art .cover2{
+  padding-left: 1200px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+#art .cover3{
+  padding-left: 1000px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+#art .cover4{
+  padding-left: 1000px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+.textbox{
+  position: relative;
+  width: auto;
+}
+
+.overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0%;
+  left: 6.5%;
+  height: 70%;
+  width: 50%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: black;
+  transform: translateY(20%);
+}
+
+.textbox:hover .overlay {
+  opacity: 1;
+}
+
+.text{
+  color: white;
+  font-size: 20px;
+  position:  relative;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+
+}
+
+#art a{
+  color:#ffffff;
+  text-decoration:none;
+  font-size: 20px;
+}
+
+
+
+
+
+/*animation*/
+
+#animations{
+  background: #ffffff;
+  padding: 0px;
+  color: #000000;
+}
+
+.animation {
+    position:sticky;
+    top: 0;
+    color: white;
+    background-color: black;
+    padding: 50px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.textboxanimation{
+  position: relative;
+  width: auto;
+}
+
+#animations .animation1{
+  padding-left: 150px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+#animations .animation2{
+  padding-left: 150px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+#animations .animation3{
+  padding-left: 150px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+.textboxanimation{
+  position: relative;
+  width: auto;
+}
+
+.overlayanimation{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0%;
+  left: 6.5%;
+  height: 70%;
+  width: 50%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: black;
+  transform: translate(70%,17%);
+
+}
+
+.textboxanimation:hover .overlayanimation {
+  opacity: 1;
+}
+
+.textanimation{
+  color: white;
+  font-size: 20px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+
+}
+
+
+
+
+/*footer****/
+
+
+footer{
+  padding: 30px;
+  margin-top: 10px;
+  color: #ffffff;
+  background-color: #35424a;
+  text-align: center;
+  text-decoration: none;
+  font-style: italic;
+}
